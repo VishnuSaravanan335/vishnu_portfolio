@@ -17,7 +17,7 @@ export function Footer() {
           <div className="md:col-span-2">
             <h3 className="font-bold text-2xl tracking-tight mb-4">Vishnu</h3>
             <p className="text-muted-foreground mb-6 max-w-sm">
-              AWS Cloud DevOps Engineer specializing in CI/CD, cloud architecture, and infrastructure automation. Building scalable solutions for modern applications.
+              AWS Cloud DevOps Engineer specializing in CI/CD, cloud architecture and infrastructure automation. Building scalable solutions for modern applications.
             </p>
             <div className="flex gap-4">
               <Link href="https://github.com/VishnuSaravanan335" target="_blank" className="p-2 bg-background rounded-full hover:text-primary transition-colors border border-border">

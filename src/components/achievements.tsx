@@ -93,7 +93,7 @@ export function Achievements() {
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-primary to-accent rounded-full mb-4"></div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A track record of continuous learning, research, and competitive excellence.
+            A track record of continuous learning, research and competitive excellence.
           </p>
         </motion.div>
 

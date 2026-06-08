@@ -8,7 +8,7 @@ import Link from "next/link";
 const PROJECTS = [
   {
     title: "CI/CD Pipeline Architecture",
-    description: "Architected a fully automated CI/CD pipeline integrating Jenkins, Docker, and Kubernetes. Enabled zero-downtime deployments and streamlined the continuous integration workflow for microservices.",
+    description: "Architected a fully automated CI/CD pipeline integrating Jenkins, Docker and Kubernetes. Enabled zero-downtime deployments and streamlined the continuous integration workflow for microservices.",
     github: "https://github.com/VishnuSaravanan335/CICD_PIPELINE",
     tags: ["Jenkins", "Docker", "Kubernetes", "Automation"],
     gradient: "from-blue-500/40 via-blue-500/5",
@@ -16,7 +16,7 @@ const PROJECTS = [
   },
   {
     title: "AWS Infrastructure Pipeline",
-    description: "Developed robust Infrastructure as Code (IaC) using Terraform to provision and manage AWS resources automatically, ensuring highly scalable, fault-tolerant, and secure cloud environments.",
+    description: "Developed robust Infrastructure as Code (IaC) using Terraform to provision and manage AWS resources automatically, ensuring highly scalable, fault-tolerant and secure cloud environments.",
     github: "https://github.com/VishnuSaravanan335/Infrastructure_Pipeline",
     tags: ["Terraform", "AWS", "IaC", "Cloud Architecture"],
     gradient: "from-amber-500/40 via-orange-500/5",
@@ -32,7 +32,7 @@ const PROJECTS = [
   },
   {
     title: "Hall Booking System (BookMyHall)",
-    description: "Designed and developed a comprehensive web-based platform for enterprise-level event management, streamlining resource allocation, and automated reservation scheduling.",
+    description: "Designed and developed a comprehensive web-based platform for enterprise-level event management, streamlining resource allocation and automated reservation scheduling.",
     github: "https://github.com/VishnuSaravanan335/KPRCAS-BookMyHall",
     tags: ["Full Stack", "Resource Management", "Event Platform"],
     gradient: "from-purple-500/40 via-purple-500/5",

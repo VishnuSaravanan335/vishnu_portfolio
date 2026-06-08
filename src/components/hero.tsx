@@ -94,7 +94,7 @@ export function Hero() {
           </motion.div>
           
           <p className="text-base md:text-lg text-muted-foreground/80 leading-relaxed text-center max-w-2xl px-6">
-            Building Scalable, Automated, and Cloud-Native Solutions Through DevOps Best Practices.
+            Building Scalable, Automated and Cloud-Native Solutions Through DevOps Best Practices.
           </p>
           
           {/* Enhanced CTA Buttons */}

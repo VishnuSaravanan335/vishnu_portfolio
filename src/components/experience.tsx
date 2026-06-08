@@ -88,7 +88,7 @@ export function Experience() {
                           Real‑Time UPI Analysis
                         </div>
                         <p className="text-xs text-muted-foreground leading-relaxed font-medium">
-                          A high-throughput data analysis system built to monitor live UPI transactions, clean large datasets, and detect fraud patterns with rapid precision.
+                          A high-throughput data analysis system built to monitor live UPI transactions, clean large datasets and detect fraud patterns with rapid precision.
                         </p>
                       </div>
 

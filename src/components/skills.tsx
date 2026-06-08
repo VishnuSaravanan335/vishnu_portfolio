@@ -163,7 +163,7 @@ export function Skills() {
           </h2>
           <div className="h-1 w-20 bg-gradient-to-r from-primary to-accent rounded-full"></div>
           <p className="mt-4 text-muted-foreground max-w-2xl font-medium">
-            <span className="text-foreground">Cloud & DevOps Ecosystem:</span> A comprehensive, architecture-driven toolkit for building, deploying, and observing modern cloud infrastructure.
+            <span className="text-foreground">Cloud & DevOps Ecosystem:</span> A comprehensive, architecture-driven toolkit for building, deploying and observing modern cloud infrastructure.
           </p>
         </motion.div>
 
