@@ -3,6 +3,7 @@
 import { motion, Variants } from "framer-motion";
 import { Layers, Activity, Container, BarChart, Database, Terminal, GitBranch } from "lucide-react";
 import Image from "next/image";
+import { FaGithub } from "react-icons/fa";
 
 import {
   ArchitectureServiceAmazonEC2,
@@ -51,7 +52,7 @@ const SKILL_CATEGORIES = [
     icon: <Layers className="h-6 w-6" />,
     skills: [
       { name: "Jenkins", icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" alt="Jenkins" className="w-8 h-8 object-contain" /> },
-      { name: "GitHub", icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" className="w-8 h-8 object-contain dark:invert" /> },
+      { name: "GitHub", icon: <FaGithub className="w-8 h-8 text-foreground" /> },
       { name: "Terraform", icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" alt="Terraform" className="w-8 h-8 object-contain" /> },
       { name: "Ansible", icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ansible/ansible-original.svg" alt="Ansible" className="w-8 h-8 object-contain" /> },
     ],
