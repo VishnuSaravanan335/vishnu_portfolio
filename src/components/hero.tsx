@@ -110,7 +110,7 @@ export function Hero() {
               </span>
               <div className="absolute inset-0 bg-white/20 translate-y-[100%] group-hover:translate-y-[0%] transition-transform duration-300 ease-out" />
             </Link>
-            <a href="/Vishnu_Resume.pdf" download className="group inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-transparent text-foreground border-2 border-accent/50 rounded-full font-bold hover:bg-accent/5 hover:border-accent hover:scale-105 transition-all duration-300 w-full sm:w-auto">
+            <a href="/VISHNU_RESUME.pdf" download className="group inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-transparent text-foreground border-2 border-accent/50 rounded-full font-bold hover:bg-accent/5 hover:border-accent hover:scale-105 transition-all duration-300 w-full sm:w-auto">
               Resume <Download className="h-4 w-4 group-hover:translate-y-1 transition-transform duration-300 text-accent" />
             </a>
           </motion.div>
