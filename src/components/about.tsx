@@ -45,10 +45,12 @@ export function About() {
             <motion.div 
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
+              whileHover={{ scale: 1.02, y: -5, transition: { duration: 0.2 } }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.4 }}
-              className="group glass p-6 rounded-2xl hover:border-primary/50 transition-all duration-300 mb-6 shadow-lg hover:shadow-primary/20"
+              className="group glass p-6 rounded-2xl border border-primary/10 hover:border-primary/60 transition-all duration-200 mb-6 shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-[0_0_25px_rgba(220,38,38,0.3)] dark:hover:shadow-[0_0_25px_rgba(239,68,68,0.3)] relative overflow-hidden bg-white/60 dark:bg-white/5 backdrop-blur-md"
             >
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/10 to-transparent -translate-x-full group-hover:translate-x-[200%] transition-transform duration-500 ease-in-out -z-10" />
               <p className="text-lg text-foreground leading-relaxed font-medium text-justify">
                 I am a <strong className="text-primary font-bold text-xl">B.Com Computer Applications graduate</strong> and an <strong className="text-primary font-bold text-xl">AWS Cloud & DevOps Engineer</strong> with a strong focus on designing <strong className="text-foreground">scalable cloud architectures</strong>, automating <strong className="text-foreground">deployment workflows</strong> and building reliable, high-performance systems. I specialize in <strong className="text-foreground">AWS cloud infrastructure</strong>, <strong className="text-foreground">CI/CD pipeline automation</strong>, <strong className="text-foreground">container orchestration</strong> and <strong className="text-foreground">Infrastructure as Code</strong> to deliver secure and efficient solutions.
               </p>
@@ -57,10 +59,12 @@ export function About() {
             <motion.div 
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
+              whileHover={{ scale: 1.02, y: -5, transition: { duration: 0.2 } }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.5 }}
-              className="group glass p-6 rounded-2xl hover:border-primary/50 transition-all duration-300 mb-6 shadow-lg hover:shadow-primary/20"
+              className="group glass p-6 rounded-2xl border border-primary/10 hover:border-primary/60 transition-all duration-200 mb-6 shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-[0_0_25px_rgba(220,38,38,0.3)] dark:hover:shadow-[0_0_25px_rgba(239,68,68,0.3)] relative overflow-hidden bg-white/60 dark:bg-white/5 backdrop-blur-md"
             >
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/10 to-transparent -translate-x-full group-hover:translate-x-[200%] transition-transform duration-500 ease-in-out -z-10" />
               <p className="text-lg text-foreground leading-relaxed font-medium text-justify">
                 My experience includes <strong className="text-foreground">architecting AWS-based cloud projects</strong>, developing <strong className="text-foreground">full-stack web applications</strong> for academic use and contributing to <strong className="text-foreground">award-winning hackathon solutions</strong>. I have also been shortlisted in <strong className="text-foreground">multiple innovation competitions</strong>, demonstrating my ability to apply technical knowledge to practical, real-world engineering challenges.
               </p>
@@ -69,10 +73,12 @@ export function About() {
             <motion.div 
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
+              whileHover={{ scale: 1.02, y: -5, transition: { duration: 0.2 } }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.6 }}
-              className="group glass p-6 rounded-2xl hover:border-primary/50 transition-all duration-300 shadow-lg hover:shadow-primary/20"
+              className="group glass p-6 rounded-2xl border border-primary/10 hover:border-primary/60 transition-all duration-200 shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-[0_0_25px_rgba(220,38,38,0.3)] dark:hover:shadow-[0_0_25px_rgba(239,68,68,0.3)] relative overflow-hidden bg-white/60 dark:bg-white/5 backdrop-blur-md"
             >
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/10 to-transparent -translate-x-full group-hover:translate-x-[200%] transition-transform duration-500 ease-in-out -z-10" />
               <p className="text-lg text-foreground leading-relaxed font-medium text-justify">
                 I am passionate about <strong className="text-foreground">automation</strong>, <strong className="text-foreground">system reliability</strong> and <strong className="text-foreground">continuous delivery practices</strong>. My goal is to leverage modern <strong className="text-foreground">DevOps and cloud-native technologies</strong> to build resilient systems that improve <strong className="text-foreground">scalability</strong>, reduce <strong className="text-foreground">operational overhead</strong> and accelerate <strong className="text-foreground">software delivery</strong>.
               </p>
@@ -89,11 +95,12 @@ export function About() {
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
+              whileHover={{ scale: 1.05, x: -5, transition: { duration: 0.2 } }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.4 }}
-              className="group glass p-6 rounded-2xl flex items-center gap-4 hover:border-primary/50 transition-all duration-300 shadow-sm hover:shadow-lg hover:-translate-y-1 overflow-hidden relative"
+              className="group glass p-6 rounded-2xl border border-primary/10 hover:border-primary/60 flex items-center gap-4 transition-all duration-200 shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-[0_0_25px_rgba(220,38,38,0.3)] dark:hover:shadow-[0_0_25px_rgba(239,68,68,0.3)] overflow-hidden relative backdrop-blur-lg bg-white/60 dark:bg-white/5"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-primary/0 via-primary/5 to-primary/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
+              <div className="absolute inset-0 bg-gradient-to-r from-primary/0 via-primary/10 to-primary/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500 -z-10" />
               <div className="p-4 bg-primary/10 rounded-xl text-primary group-hover:scale-110 group-hover:rotate-12 transition-transform duration-300 shadow-inner">
                 <MapPin className="h-7 w-7" />
               </div>
@@ -106,11 +113,12 @@ export function About() {
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
+              whileHover={{ scale: 1.05, x: -5, transition: { duration: 0.2 } }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.5 }}
-              className="group glass p-6 rounded-2xl flex items-center gap-4 hover:border-primary/50 transition-all duration-300 shadow-sm hover:shadow-lg hover:-translate-y-1 overflow-hidden relative"
+              className="group glass p-6 rounded-2xl border border-primary/10 hover:border-primary/60 flex items-center gap-4 transition-all duration-200 shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-[0_0_25px_rgba(220,38,38,0.3)] dark:hover:shadow-[0_0_25px_rgba(239,68,68,0.3)] overflow-hidden relative backdrop-blur-lg bg-white/60 dark:bg-white/5"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-primary/0 via-primary/5 to-primary/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
+              <div className="absolute inset-0 bg-gradient-to-r from-primary/0 via-primary/10 to-primary/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500 -z-10" />
               <div className="p-4 bg-primary/10 rounded-xl text-primary group-hover:scale-110 group-hover:rotate-12 transition-transform duration-300 shadow-inner">
                 <Mail className="h-7 w-7" />
               </div>
@@ -123,11 +131,12 @@ export function About() {
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
+              whileHover={{ scale: 1.05, x: -5, transition: { duration: 0.2 } }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.6 }}
-              className="group glass p-6 rounded-2xl flex items-center gap-4 hover:border-primary/50 transition-all duration-300 shadow-sm hover:shadow-lg hover:-translate-y-1 overflow-hidden relative"
+              className="group glass p-6 rounded-2xl border border-primary/10 hover:border-primary/60 flex items-center gap-4 transition-all duration-200 shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-[0_0_25px_rgba(220,38,38,0.3)] dark:hover:shadow-[0_0_25px_rgba(239,68,68,0.3)] overflow-hidden relative backdrop-blur-lg bg-white/60 dark:bg-white/5"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-primary/0 via-primary/5 to-primary/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
+              <div className="absolute inset-0 bg-gradient-to-r from-primary/0 via-primary/10 to-primary/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500 -z-10" />
               <div className="p-4 bg-primary/10 rounded-xl text-primary group-hover:scale-110 group-hover:-rotate-12 transition-transform duration-300 shadow-inner">
                 <GraduationCap className="h-7 w-7" />
               </div>
@@ -141,11 +150,12 @@ export function About() {
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
+              whileHover={{ scale: 1.05, x: -5, transition: { duration: 0.2 } }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.7 }}
-              className="group glass p-6 rounded-2xl flex items-center gap-4 hover:border-primary/50 transition-all duration-300 shadow-sm hover:shadow-lg hover:-translate-y-1 overflow-hidden relative"
+              className="group glass p-6 rounded-2xl border border-primary/10 hover:border-primary/60 flex items-center gap-4 transition-all duration-200 shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-[0_0_25px_rgba(220,38,38,0.3)] dark:hover:shadow-[0_0_25px_rgba(239,68,68,0.3)] overflow-hidden relative backdrop-blur-lg bg-white/60 dark:bg-white/5"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-primary/0 via-primary/5 to-primary/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
+              <div className="absolute inset-0 bg-gradient-to-r from-primary/0 via-primary/10 to-primary/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500 -z-10" />
               <div className="p-4 bg-primary/10 rounded-xl text-primary group-hover:scale-110 group-hover:rotate-12 transition-transform duration-300 shadow-inner">
                 <Briefcase className="h-7 w-7" />
               </div>

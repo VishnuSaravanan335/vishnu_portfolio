@@ -133,21 +133,7 @@ export function Hero() {
         </motion.div>
       </div>
       
-      <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1 }}
-        className="absolute bottom-6 right-6 md:bottom-10 md:right-10 flex flex-col items-center text-muted-foreground hidden sm:flex"
-      >
-        <span className="text-[10px] font-bold uppercase tracking-widest mb-3 text-muted-foreground/50">Scroll</span>
-        <div className="w-[2px] h-12 bg-muted-foreground/20 rounded-full overflow-hidden relative">
-          <motion.div 
-            animate={{ y: ['-100%', '200%'] }} 
-            transition={{ duration: 1.5, repeat: Infinity, ease: "linear" }} 
-            className="w-full h-1/2 bg-primary absolute top-0 left-0" 
-          />
-        </div>
-      </motion.div>
+
     </section>
   );
 }

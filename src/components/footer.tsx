@@ -5,9 +5,6 @@ import { Mail, ChevronUp } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export function Footer() {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
 
   return (
     <footer className="bg-secondary/5 py-12 border-t border-border/50 relative overflow-hidden">
@@ -59,12 +56,7 @@ export function Footer() {
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} Vishnu Saravanan. All rights reserved.
           </p>
-          <button 
-            onClick={scrollToTop}
-            className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
-          >
-            Back to top <ChevronUp className="h-4 w-4" />
-          </button>
+
         </div>
       </div>
     </footer>

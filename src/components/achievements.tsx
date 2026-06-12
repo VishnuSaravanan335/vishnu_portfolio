@@ -113,32 +113,35 @@ export function Achievements() {
             >
               <div className={`absolute inset-0 bg-gradient-to-br ${achievement.gradient} opacity-0 group-hover:opacity-100 transition-all duration-700 rounded-2xl blur-xl -z-10`} />
               
-              <div className="glass p-8 rounded-2xl h-full border border-primary/20 hover:border-primary/60 transition-all duration-500 shadow-lg hover:shadow-primary/30 flex flex-col gap-6 relative overflow-hidden">
+              <div className="glass p-8 rounded-2xl h-full border border-primary/20 hover:border-primary/60 transition-all duration-500 shadow-[0_4px_30px_rgba(0,0,0,0.1)] hover:shadow-[0_0_40px_rgba(220,38,38,0.2)] dark:hover:shadow-[0_0_40px_rgba(239,68,68,0.2)] flex flex-col gap-6 relative overflow-hidden bg-white/20 dark:bg-black/30 backdrop-blur-xl">
                 
                 {/* Decorative background glow inside the card */}
-                <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 blur-3xl rounded-full -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="absolute -top-10 -right-10 w-40 h-40 bg-primary/20 blur-3xl rounded-full -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+                <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-accent/20 blur-3xl rounded-full -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 delay-100" />
 
                 <div className="flex items-center gap-4 relative z-10">
                   <motion.div 
                     initial={{ rotate: 0 }}
-                    whileHover={{ rotate: 360, scale: 1.2 }}
-                    transition={{ duration: 0.8, type: "spring" }}
-                    className="p-4 rounded-xl bg-primary/10 border border-primary/20 shadow-inner text-primary"
+                    whileHover={{ rotate: [0, -15, 15, -15, 0], scale: 1.2 }}
+                    transition={{ duration: 0.6 }}
+                    className="p-5 rounded-2xl bg-gradient-to-br from-primary/20 to-accent/20 border border-primary/30 shadow-inner text-primary group-hover:text-accent transition-colors duration-500 backdrop-blur-sm"
                   >
                     {achievement.icon}
                   </motion.div>
                 </div>
                 
                 <div className="flex-1 relative z-10">
-                  <h3 className="text-xl font-bold text-foreground mb-3 leading-snug group-hover:text-primary transition-colors duration-300">
+                  <h3 className="text-xl font-extrabold text-foreground mb-3 leading-snug group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-primary group-hover:to-accent transition-all duration-300">
                     {achievement.title}
                   </h3>
                   {achievement.description && (
-                    <p className="text-base text-muted-foreground font-medium leading-relaxed group-hover:text-foreground transition-colors duration-300">
+                    <p className="text-base text-muted-foreground font-medium leading-relaxed group-hover:text-foreground/90 transition-colors duration-300">
                       {achievement.description}
                     </p>
                   )}
                 </div>
+
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-[200%] transition-transform duration-1000 ease-in-out -z-10" />
               </div>
             </motion.div>
           ))}
